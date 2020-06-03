@@ -1,0 +1,25 @@
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  color: #CCCCFF;
+}
+
+button {
+  padding: 5px;
+}
+
+.tod-card {
+  margin: 15px;
+  box-shadow: 2px 2px 2px grey;
+  background-color: white;
+  padding: 15px;
+}
+
+#todos {
+  margin-top: 20px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
